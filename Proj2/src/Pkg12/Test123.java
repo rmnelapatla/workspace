@@ -5,6 +5,7 @@ public class Test123 {
 	
 	public static void main(String ara[]){
 		System.out.println("test"); 
+		int j="123"
 	}
 
 }
