@@ -777,3 +777,14 @@ java.io.IOException: The process cannot access the file because another process 
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:226)
 	at org.eclipse.egit.ui.internal.staging.StagingView$49.run(StagingView.java:2553)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-07-21 12:59:43.679
+!MESSAGE Unable to create new object: F:\Gitdemo\workspace\.git\objects\41\4a6b37c4de976cc65a3e6047ebd48c8e896c47
+!STACK 0
+org.eclipse.jgit.errors.ObjectWritingException: Unable to create new object: F:\Gitdemo\workspace\.git\objects\41\4a6b37c4de976cc65a3e6047ebd48c8e896c47
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insertOneObject(ObjectDirectoryInserter.java:129)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:94)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:104)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:228)
+	at org.eclipse.egit.ui.internal.staging.StagingView$49.run(StagingView.java:2553)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
